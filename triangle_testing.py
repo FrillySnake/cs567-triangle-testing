@@ -1,4 +1,4 @@
-GITHUB_LINK = ''
+GITHUB_LINK = 'https://github.com/FrillySnake/cs567-triangle-testing'
 
 import unittest
 import math
