@@ -24,10 +24,11 @@ def classify_triangle(a, b, c):
     except:
         return 'NotATriangle'
 
-# function 
+# main function to run classify_triangle
 def run_classify_triangle(a, b, c):
     print(f'classify_triangle({a}, {b}, {c}) = {classify_triangle(a, b, c)}')
 
+# test cases
 class TestTriangles(unittest.TestCase):
     # test unusual or invalid inputs (strings, etc)
     def testSet1(self):
@@ -44,8 +45,7 @@ class TestTriangles(unittest.TestCase):
         self.assertEqual(classify_triangle(124021051234, 124021051234, 124021051234), 'Equilateral', '124021051234, 124021051234, 124021051234 is an equilateral triangle')
 
 if __name__ == '__main__':
-    # examples of running the code
     run_classify_triangle(1, 2, 3)
     run_classify_triangle(1, 1, 1)
     
-    unittest.main(exit=True) # this runs all of the tests - use this line if running from the command line
+    unittest.main(exit=True)
