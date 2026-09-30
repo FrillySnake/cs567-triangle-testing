@@ -39,9 +39,6 @@ jobs:
     executor: python/default
     steps:
       - checkout
-      - python/install-packages:
-          pkg-manager: pip
-          pip-dependency-file: requirements.txt
       - run:
           name: Run GitHub API Accessor
           command: python c:/Users/idokh/Downloads/cs567-triangle-testing/cs567_hw03a/github_api_accessor.py
