@@ -44,7 +44,7 @@ jobs:
           pip-dependency-file: requirements.txt
       - run:
           name: Run GitHub API Accessor
-          command: & c:\python313\python.exe c:/Users/idokh/Downloads/cs567-triangle-testing/cs567_hw03a/github_api_accessor.py
+          command: python c:/Users/idokh/Downloads/cs567-triangle-testing/cs567_hw03a/github_api_accessor.py
 
 workflows:
   build_test_deploy:
