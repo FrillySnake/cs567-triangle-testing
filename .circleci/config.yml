@@ -41,7 +41,7 @@ jobs:
       - checkout
       - run:
           name: Run GitHub API Accessor
-          command: python c:/Users/idokh/Downloads/cs567-triangle-testing/cs567_hw03a/github_api_accessor.py
+          command: python -m c:/Users/idokh/Downloads/cs567-triangle-testing/cs567_hw03a/github_api_accessor.py
 
 workflows:
   build_test_deploy:
