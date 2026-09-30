@@ -40,6 +40,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Install dependencies
+          command: pip install -r requirements.txt
+      - run:
           name: Run GitHub API Accessor
           command: python cs567_hw03a/github_api_accessor.py
 
