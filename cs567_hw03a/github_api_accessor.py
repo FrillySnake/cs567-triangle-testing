@@ -3,7 +3,7 @@ GITHUB_LINK = 'https://github.com/FrillySnake/cs567-triangle-testing'
 import requests
 import unittest
 
-USER_ID = 'FrillySnake' # fill with a GitHub user id to skip user input
+USER_ID = 'FrillySnake' # NOTE: empty this string to use user input, or replace with a different user id of choice
 
 def access_github(userId):
     repos = requests.get(f'https://api.github.com/users/{userId}/repos').json()
