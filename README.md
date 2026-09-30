@@ -1,1 +1,3 @@
-GitHub API Accessor Build Status: [![CircleCI](https://dl.circleci.com/status-badge/img/circleci/HMdbrCj7exvXVcLBu82F8Z/FTiLaGDdU4GQSuodg6qDh9/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/HMdbrCj7exvXVcLBu82F8Z/FTiLaGDdU4GQSuodg6qDh9/tree/main)
+GitHub API Accessor Build Status (main branch): [![CircleCI](https://dl.circleci.com/status-badge/img/circleci/HMdbrCj7exvXVcLBu82F8Z/FTiLaGDdU4GQSuodg6qDh9/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/HMdbrCj7exvXVcLBu82F8Z/FTiLaGDdU4GQSuodg6qDh9/tree/main)
+
+GitHub Mock API Accessor Build Status (HW-03b_Mocking branch): [![CircleCI](https://dl.circleci.com/status-badge/img/circleci/HMdbrCj7exvXVcLBu82F8Z/FTiLaGDdU4GQSuodg6qDh9/tree/HW-03b_Mocking.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/HMdbrCj7exvXVcLBu82F8Z/FTiLaGDdU4GQSuodg6qDh9/tree/HW-03b_Mocking)
